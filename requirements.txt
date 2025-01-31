@@ -1,0 +1,17 @@
+dash==2.16.1
+dash_bootstrap_components==1.6.0
+gym==0.26.2
+gymnasium==0.29.1
+matplotlib==3.10.0
+numpy==2.2.2
+pandapower==2.14.6
+pandas==2.2.3
+plotly==5.20.0
+pytest==6.2.5
+scikit_learn==1.6.1
+simbench==1.5.3
+stable_baselines3==2.3.2
+tbparse==0.0.9
+torch==2.4.0
+gunicorn
+dash-tools

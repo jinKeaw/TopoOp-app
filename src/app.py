@@ -595,7 +595,7 @@ table_data = [
 # Initialize app
 #app = dash.Dash(__name__)
 app = dash.Dash(external_stylesheets=[dbc.themes.BOOTSTRAP])
-
+server = app.server
 # Define layout
 app.layout = html.Div([
     html.H1('Topology Optimizer Dashboard'),
@@ -985,7 +985,7 @@ html.Div(
                     html.Div(
                         [
                             html.Img(
-                                src="assets/rw_congest_2.png",
+                                src="GUI/Dashboard_Data/assets/rw_congest_2.png",
                                 alt="Equation 2: Definition of R_congestion,t",
                                 style={"width": "30%", "margin-bottom": "10px"}
                             ),
@@ -997,7 +997,7 @@ html.Div(
                     html.Div(
                         [
                             html.Img(
-                                src="assets/rw_congest_3.png",
+                                src="GUI/Dashboard_Data/assets/rw_congest_3.png",
                                 alt="Equation 3: Definition of u",
                                 style={"width": "80%", "margin-bottom": "10px"}
                             ),
@@ -1008,7 +1008,7 @@ html.Div(
                         ]
                     ),html.Div(
                                             [html.Img(
-                                src="assets/rw_congest_1.png",
+                                src="GUI/Dashboard_Data/assets/rw_congest_1.png",
                                 alt="Equation 1: Definition of ρ_l",
                                 style={"width": "10%", "margin-bottom": "10px"}
                             ),
