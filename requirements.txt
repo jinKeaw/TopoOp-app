@@ -16,3 +16,5 @@ torch==2.4.0
 gunicorn
 dash-tools
 setuptools
+docopt==0.6.2
+wheel
