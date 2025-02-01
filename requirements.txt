@@ -15,3 +15,4 @@ tbparse==0.0.9
 torch==2.4.0
 gunicorn
 dash-tools
+setuptools
