@@ -1,3 +1,4 @@
+pip==25.0
 dash==2.16.1
 dash_bootstrap_components==1.6.0
 gym==0.26.2
